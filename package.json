@@ -1,13 +1,15 @@
 {
   "name": "sdk_sample",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "./",
+  "private": true,
+  "homepage": "https://wemixplay.github.io/sdk_sample",
   "scripts": {
     "start": "PORT=4040 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -22,6 +24,7 @@
   "devDependencies": {
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
+    "gh-pages": "^6.3.0",
     "web-vitals": "^2.1.4"
   },
   "browserslist": {
