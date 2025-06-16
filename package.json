@@ -2,7 +2,7 @@
   "name": "sdk_sample",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wemixplay.github.io/sdk_sample",
+  "homepage": ".",
   "scripts": {
     "start": "PORT=4040 react-scripts start",
     "build": "react-scripts build",
